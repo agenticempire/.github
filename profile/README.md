@@ -5,27 +5,27 @@
 <h1 align="center">Agentic Empire</h1>
 
 <p align="center">
-  <strong>The Apple-native execution layer for AI agents.</strong><br/>
-  Open-source compilers, package registries, and cloud infrastructure for agent-authored software on Apple platforms.
+  <strong>Building the frontier of the agentic era.</strong><br/>
+  A studio shipping infrastructure, platforms, and products across the agentic stack.
 </p>
 
 ---
 
-### Axint
+### Axint — our flagship line
 
-The open-source TypeScript-to-Swift compiler. One `defineIntent()` call replaces 50–200 lines of Swift boilerplate. Agents ship App Intents, SwiftUI views, WidgetKit widgets, and full apps at 5–15× fewer tokens.
+Open-source compiler for Apple platforms. TypeScript and Python in. Real Swift out — App Intents, SwiftUI views, WidgetKit widgets, full apps. One `defineIntent()` call replaces 50–200 lines of Swift boilerplate. Agents ship at a fraction of the tokens.
 
 ```bash
 npm install -g @axint/compiler
 axint compile my-intent.ts --out ios/Intents/
 ```
 
-13 MCP tools for Claude, Cursor, Windsurf, and Codex. 150 diagnostic codes. 500 tests. Apache 2.0.
+10 MCP tools for Claude, Cursor, Windsurf, and Codex. 300+ diagnostic codes. Apache 2.0.
 
 | | |
 |---|---|
-| **[Compiler](https://github.com/agenticempire/axint)** | TypeScript → validated Swift for App Intents, views, widgets, and apps |
-| **[Playground](https://axint.ai/#playground)** | Full compiler running in your browser — zero install |
+| **[Compiler](https://github.com/agenticempire/axint)** | TypeScript / Python → validated Swift for App Intents, views, widgets, and apps |
+| **[Cloud](https://cloud.axint.ai)** | Hosted compile, validation, and workspace collaboration |
 | **[Registry](https://registry.axint.ai)** | Browse and publish intent packages |
 | **[Docs](https://docs.axint.ai)** | Getting started, MCP tools, diagnostics, CLI reference |
 
@@ -33,7 +33,9 @@ axint compile my-intent.ts --out ios/Intents/
 
 ### Thesis
 
-Software is shifting from human-authored to agent-directed. Apple's API surfaces — App Intents, SwiftUI, WidgetKit — are verbose by design. A single widget requires four Swift structs before you've written a line of business logic. AI agents pay per token. We compress that.
+Software is shifting from human-authored to agent-directed. Apple's API surfaces — App Intents, SwiftUI, WidgetKit — are verbose by design. A single widget needs four Swift structs before any business logic. Agents pay per token. We compress that.
+
+Axint is one line. Agentic Empire is the studio behind it, building across the agentic stack as the runtime for AI-native software takes shape.
 
 ---
 
