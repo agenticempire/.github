@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-04-19T06:36:10.087Z",
+  "source": {
+    "compilerMetrics": "axint/metrics.json",
+    "compilerPackage": "axint/package.json"
+  },
+  "axint": {
+    "version": "0.3.9",
+    "versionTag": "v0.3.9",
+    "license": "Apache-2.0",
+    "tests": {
+      "typescript": 543,
+      "python": 105,
+      "total": 648,
+      "summary": "648 tests",
+      "passingSummary": "648 tests passing"
+    },
+    "diagnostics": {
+      "count": 130,
+      "summary": "130 diagnostic codes",
+      "shortSummary": "130 diagnostics"
+    },
+    "mcp": {
+      "tools": 10,
+      "prompts": 3,
+      "summary": "10 MCP tools + 3 prompts",
+      "compactSummary": "10 MCP tools, 3 prompts",
+      "builtInSummary": "10 tools plus 3 built-in prompts"
+    },
+    "templates": {
+      "count": 25,
+      "summary": "25 bundled templates"
+    },
+    "registryPackages": {
+      "count": 8,
+      "summary": "8 live packages"
+    },
+    "distributionSurfaces": {
+      "count": 4,
+      "summary": "4 distribution surfaces"
+    },
+    "surfaces": {
+      "count": 4,
+      "summary": "4 Apple surfaces",
+      "list": "Intent · View · Widget · App"
+    },
+    "githubProfileProofLine": "v0.3.9 · 10 MCP tools + 3 prompts · 130 diagnostic codes · 648 tests · 8 live packages · Apache-2.0",
+    "company": {
+      "heroVersionSummary": "v0.3.9 live",
+      "heroStatusSummary": "Axint v0.3.9 · open source · shipping"
+    }
+  }
+}
