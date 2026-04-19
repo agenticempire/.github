@@ -5,15 +5,15 @@
 <h1 align="center">Agentic Empire</h1>
 
 <p align="center">
-  <strong>Compilers, trust surfaces, and hosted workflows for agent-authored software.</strong><br/>
-  Agentic Empire is building the execution layer between model output and software that can actually ship.
+  <strong>Agentic Empire builds the execution layer for agent-authored software.</strong><br/>
+  The company sits between model output and software that can actually survive platform rules, build systems, trust boundaries, and distribution.
 </p>
 
 ---
 
 ### Flagship Line: Axint
 
-TypeScript and Python in. Validated Swift out — App Intents, SwiftUI views, WidgetKit widgets, and full app scaffolds. Axint is the first public product line from Agentic Empire: an open-source compiler with registry and Cloud workflow surfaces around it for Apple-native software authored by agents. One `defineIntent()` call replaces 50–200 lines of Swift. One `defineWidget()` replaces the four-struct WidgetKit stack. The compiler handles the conformances, `@Parameter` wrappers, and `LocalizedStringResource` literals — every token an agent would otherwise burn.
+Axint turns TypeScript and Python into validated Swift for Apple-native features. It is the first public product line from Agentic Empire: an open-source compiler with registry and Cloud workflow surfaces around it for App Intents, SwiftUI views, WidgetKit widgets, and full app scaffolds. The compiler handles the conformances, `@Parameter` wrappers, and `LocalizedStringResource` literals that would otherwise turn every generated feature into a pile of Swift ceremony.
 
 ```bash
 npm install -g @axint/compiler
@@ -34,7 +34,7 @@ axint compile my-intent.ts --out ios/Intents/
 
 ### Company Shape
 
-Agentic Empire sits above the product line. The company is building the infrastructure stack around agent-authored software: compilers, trust layers, hosted validation, and products that can survive real platform rules. Apple is the first proving ground because the constraints are hard enough to make the execution layer real.
+Agentic Empire sits above the product line. The company is building the execution layer around agent-authored software: compilers, trust layers, hosted validation, and products that can survive real platform rules. Apple is the first proving ground because the constraints are hard enough to make the execution layer real.
 
 ---
 
