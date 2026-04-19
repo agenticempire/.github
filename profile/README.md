@@ -5,40 +5,38 @@
 <h1 align="center">Agentic Empire</h1>
 
 <p align="center">
-  <strong>Building the frontier of the agentic era.</strong><br/>
-  A studio shipping infrastructure, platforms, and products across the agentic stack.
+  <strong>Infrastructure, platforms, and products for agent-authored software.</strong><br/>
+  Axint is the first public line from Agentic Empire.
 </p>
 
 ---
 
-### Axint — our flagship line
+### Flagship Line: Axint
 
-Open-source compiler for Apple platforms. TypeScript and Python in. Real Swift out — App Intents, SwiftUI views, WidgetKit widgets, full apps. One `defineIntent()` call replaces 50–200 lines of Swift boilerplate. Agents ship at a fraction of the tokens.
+TypeScript and Python in. Validated Swift out — App Intents, SwiftUI views, WidgetKit widgets, and full app scaffolds. Axint is the open-source compiler, registry, and Cloud workflow stack for Apple-native software authored by agents. One `defineIntent()` call replaces 50–200 lines of Swift. One `defineWidget()` replaces the four-struct WidgetKit stack. The compiler handles the conformances, `@Parameter` wrappers, and `LocalizedStringResource` literals — every token an agent would otherwise burn.
 
 ```bash
 npm install -g @axint/compiler
 axint compile my-intent.ts --out ios/Intents/
 ```
 
-10 MCP tools for Claude, Cursor, Windsurf, and Codex. 300+ diagnostic codes. Apache 2.0.
+v0.3.9 · 10 MCP tools + 3 prompts · 130 diagnostic codes · 647 tests · 8 live packages · Apache 2.0
 
 | | |
 |---|---|
-| **[Compiler](https://github.com/agenticempire/axint)** | TypeScript / Python → validated Swift for App Intents, views, widgets, and apps |
-| **[Cloud](https://cloud.axint.ai)** | Hosted compile, validation, and workspace collaboration |
+| **[Compiler](https://github.com/agenticempire/axint)** | TypeScript / Python → validated Swift for intents, views, widgets, apps |
 | **[Registry](https://registry.axint.ai)** | Browse and publish intent packages |
+| **[Cloud](https://axint.ai/cloud)** | Hosted compile, validation, workspace collaboration |
 | **[Docs](https://docs.axint.ai)** | Getting started, MCP tools, diagnostics, CLI reference |
 
 ---
 
-### Thesis
+### Company Shape
 
-Software is shifting from human-authored to agent-directed. Apple's API surfaces — App Intents, SwiftUI, WidgetKit — are verbose by design. A single widget needs four Swift structs before any business logic. Agents pay per token. We compress that.
-
-Axint is one line. Agentic Empire is the studio behind it, building across the agentic stack as the runtime for AI-native software takes shape.
+Agentic Empire sits above the product line. The company is building the infrastructure stack around agent-authored software: compilers, trust layers, hosted validation, and products that can survive real platform rules. Apple is the first proving ground because the constraints are hard enough to make the stack real.
 
 ---
 
 <p align="center">
-  <a href="https://axint.ai">axint.ai</a> · <a href="https://agenticempire.co">agenticempire.co</a> · <a href="https://x.com/agenticempire">𝕏</a>
+  Cupertino, CA · <a href="https://axint.ai">axint.ai</a> · <a href="https://agenticempire.co">agenticempire.co</a> · <a href="https://x.com/agenticempire">𝕏</a>
 </p>
