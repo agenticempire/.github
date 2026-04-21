@@ -20,13 +20,13 @@ npm install -g @axint/compiler
 axint compile my-intent.ts --out ios/Intents/
 ```
 
-<!-- truth:github-proof-line:start -->v0.3.9 · 10 MCP tools + 3 prompts · 130 diagnostic codes · 648 tests · 8 live packages · Apache-2.0<!-- truth:github-proof-line:end -->
+<!-- truth:github-proof-line:start -->v0.3.9 · 11 MCP tools + 3 prompts · 134 diagnostic codes · 713 tests · 14 live packages · Apache-2.0<!-- truth:github-proof-line:end -->
 
 | | |
 |---|---|
 | **[Compiler](https://github.com/agenticempire/axint)** | TypeScript / Python → validated Swift for intents, views, widgets, apps |
 | **[Registry](https://registry.axint.ai)** | Browse and publish intent packages |
-| **[Cloud](https://axint.ai/cloud)** | Compiler-backed validation, compatibility, and staged team workflows |
+| **[Cloud](https://axint.ai/cloud)** | Compiler-backed validation, compatibility, and the Cloud Check workflow |
 | **[Docs](https://docs.axint.ai)** | Getting started, MCP tools, diagnostics, CLI reference |
 | **[Company](https://agenticempire.co)** | Parent company narrative, trust posture, and flagship proof |
 

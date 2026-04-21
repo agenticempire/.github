@@ -1,39 +1,109 @@
 {
-  "generatedAt": "2026-04-19T06:36:10.087Z",
+  "generatedAt": "2026-04-21T18:12:07.797Z",
   "source": {
-    "compilerMetrics": "axint/metrics.json",
-    "compilerPackage": "axint/package.json"
+    "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
+    "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
   },
   "axint": {
     "version": "0.3.9",
     "versionTag": "v0.3.9",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 543,
-      "python": 105,
-      "total": 648,
-      "summary": "648 tests",
-      "passingSummary": "648 tests passing"
+      "typescript": 602,
+      "python": 111,
+      "total": 713,
+      "summary": "713 tests",
+      "passingSummary": "713 tests passing",
+      "breakdownSummary": "602 TypeScript · 111 Python"
     },
     "diagnostics": {
-      "count": 130,
-      "summary": "130 diagnostic codes",
-      "shortSummary": "130 diagnostics"
+      "count": 134,
+      "summary": "134 diagnostic codes",
+      "shortSummary": "134 diagnostics"
     },
     "mcp": {
-      "tools": 10,
+      "tools": 11,
       "prompts": 3,
-      "summary": "10 MCP tools + 3 prompts",
-      "compactSummary": "10 MCP tools, 3 prompts",
-      "builtInSummary": "10 tools plus 3 built-in prompts"
+      "toolsSummary": "11 MCP tools",
+      "promptsSummary": "3 built-in prompts",
+      "summary": "11 MCP tools + 3 prompts",
+      "compactSummary": "11 MCP tools, 3 prompts",
+      "builtInSummary": "11 tools plus 3 built-in prompts"
+    },
+    "cli": {
+      "topLevelCommands": [
+        "init",
+        "compile",
+        "validate",
+        "validate-swift",
+        "eject",
+        "templates",
+        "login",
+        "publish",
+        "add",
+        "search",
+        "watch",
+        "mcp",
+        "xcode"
+      ],
+      "xcodeSubcommands": [
+        "setup",
+        "verify",
+        "fix",
+        "doctor",
+        "packet",
+        "extension"
+      ],
+      "summary": "13 top-level · 6 xcode commands"
     },
     "templates": {
-      "count": 25,
-      "summary": "25 bundled templates"
+      "count": 28,
+      "summary": "28 bundled templates"
+    },
+    "xcodeFixRules": {
+      "count": 32,
+      "summary": "32 Xcode fix rules",
+      "shortSummary": "32 fix rules",
+      "detail": "CLI · Xcode · MCP",
+      "codes": [
+        "AX701",
+        "AX702",
+        "AX703",
+        "AX704",
+        "AX705",
+        "AX706",
+        "AX707",
+        "AX708",
+        "AX709",
+        "AX710",
+        "AX711",
+        "AX712",
+        "AX713",
+        "AX714",
+        "AX716",
+        "AX717",
+        "AX718",
+        "AX720",
+        "AX721",
+        "AX722",
+        "AX724",
+        "AX725",
+        "AX726",
+        "AX727",
+        "AX728",
+        "AX730",
+        "AX733",
+        "AX734",
+        "AX740",
+        "AX741",
+        "AX742",
+        "AX748"
+      ]
     },
     "registryPackages": {
-      "count": 8,
-      "summary": "8 live packages"
+      "count": 14,
+      "summary": "14 live packages",
+      "source": "registry.axint.ai/api/v1/health"
     },
     "distributionSurfaces": {
       "count": 4,
@@ -44,10 +114,164 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.3.9 · 10 MCP tools + 3 prompts · 130 diagnostic codes · 648 tests · 8 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.3.9 · 11 MCP tools + 3 prompts · 134 diagnostic codes · 713 tests · 14 live packages · Apache-2.0",
     "company": {
       "heroVersionSummary": "v0.3.9 live",
       "heroStatusSummary": "Axint v0.3.9 · open source · shipping"
+    },
+    "distribution": {
+      "docsHub": "https://docs.axint.ai/mcp/",
+      "examplesRepo": "https://github.com/agenticempire/axint-examples",
+      "packages": {
+        "npm": {
+          "name": "@axint/compiler",
+          "version": "0.3.9",
+          "installGlobal": "npm install -g @axint/compiler",
+          "installDev": "npm install --save-dev @axint/compiler",
+          "runOnce": "npx -y @axint/compiler"
+        },
+        "python": {
+          "name": "axint",
+          "version": "0.3.9",
+          "install": "pip install axint"
+        }
+      },
+      "legacyPackages": [
+        {
+          "ecosystem": "npm",
+          "name": "@axintai/compiler",
+          "replacement": "@axint/compiler"
+        },
+        {
+          "ecosystem": "pypi",
+          "name": "axintai",
+          "replacement": "axint"
+        }
+      ],
+      "localMcp": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@axint/compiler",
+          "axint-mcp"
+        ],
+        "commandLine": "npx -y @axint/compiler axint-mcp",
+        "config": {
+          "mcpServers": {
+            "axint": {
+              "command": "npx",
+              "args": [
+                "-y",
+                "@axint/compiler",
+                "axint-mcp"
+              ]
+            }
+          }
+        }
+      },
+      "remoteMcp": {
+        "transport": "streamable-http",
+        "url": "https://mcp.axint.ai/mcp",
+        "healthUrl": "https://mcp.axint.ai/health"
+      },
+      "integrations": [
+        {
+          "slug": "claude-code",
+          "name": "Claude Code",
+          "docsPath": "/mcp/claude-code/",
+          "installLabel": "Add via claude mcp add",
+          "installCommand": "claude mcp add axint -- npx -y @axint/compiler axint-mcp",
+          "configPath": "~/.config/claude-code/mcp.json"
+        },
+        {
+          "slug": "claude-desktop",
+          "name": "Claude Desktop",
+          "docsPath": "/mcp/claude-desktop/",
+          "installLabel": "Paste MCP JSON config",
+          "configPath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        {
+          "slug": "cursor",
+          "name": "Cursor",
+          "docsPath": "/mcp/cursor/",
+          "installLabel": "Open Cursor deeplink",
+          "installHref": "cursor://anysphere.cursor-deeplink/mcp/install?name=axint&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBheGludC9jb21waWxlciIsImF4aW50LW1jcCJdfQ%3D%3D",
+          "configPath": "~/Library/Application Support/Cursor/User/mcp.json"
+        },
+        {
+          "slug": "codex",
+          "name": "Codex",
+          "docsPath": "/mcp/codex/",
+          "installLabel": "Add via codex mcp add",
+          "installCommand": "codex mcp add axint -- npx -y @axint/compiler axint-mcp",
+          "remoteCommand": "codex mcp add axint --transport http https://mcp.axint.ai/mcp",
+          "configPath": "~/.codex/config.toml"
+        },
+        {
+          "slug": "vscode",
+          "name": "VS Code",
+          "docsPath": "/mcp/vscode/",
+          "installLabel": "Open VS Code deeplink",
+          "installHref": "vscode:mcp/install?%7B%22name%22%3A%22axint%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40axint%2Fcompiler%22%2C%22axint-mcp%22%5D%7D",
+          "installCommand": "code --add-mcp '{\"name\":\"axint\",\"command\":\"npx\",\"args\":[\"-y\",\"@axint/compiler\",\"axint-mcp\"]}'",
+          "configPath": ".vscode/mcp.json"
+        },
+        {
+          "slug": "windsurf",
+          "name": "Windsurf",
+          "docsPath": "/mcp/windsurf/",
+          "installLabel": "Open Windsurf deeplink",
+          "installHref": "windsurf://mcp/install",
+          "configPath": "~/.codeium/windsurf/mcp_config.json"
+        },
+        {
+          "slug": "jetbrains",
+          "name": "JetBrains",
+          "docsPath": "/mcp/jetbrains/",
+          "installLabel": "Paste MCP JSON config",
+          "configPath": "Settings → Tools → AI Assistant → MCP Servers"
+        },
+        {
+          "slug": "neovim",
+          "name": "Neovim",
+          "docsPath": "/mcp/neovim/",
+          "installLabel": "Use stdio command in your MCP plugin",
+          "configPath": "Your MCP plugin config"
+        },
+        {
+          "slug": "xcode",
+          "name": "Xcode",
+          "docsPath": "/mcp/xcode/",
+          "installLabel": "Run axint xcode setup",
+          "installCommand": "npx -y -p @axint/compiler axint xcode setup",
+          "configPath": "xcrun mcpbridge + your agent MCP config"
+        },
+        {
+          "slug": "zed",
+          "name": "Zed",
+          "docsPath": "/mcp/",
+          "installLabel": "Paste MCP JSON config",
+          "configPath": "~/.config/zed/settings.json"
+        }
+      ],
+      "toolNames": [
+        "axint.feature",
+        "axint.suggest",
+        "axint.scaffold",
+        "axint.compile",
+        "axint.validate",
+        "axint.fix-packet",
+        "axint.schema.compile",
+        "axint.swift.validate",
+        "axint.swift.fix",
+        "axint.templates.list",
+        "axint.templates.get"
+      ],
+      "promptNames": [
+        "axint.quick-start",
+        "axint.create-widget",
+        "axint.create-intent"
+      ]
     }
   }
 }
