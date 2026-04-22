@@ -5,15 +5,15 @@
 <h1 align="center">Agentic Empire</h1>
 
 <p align="center">
-  <strong>Agentic Empire builds the execution layer for agent-authored software.</strong><br/>
-  The company sits between model output and software that can actually survive platform rules, build systems, trust boundaries, and distribution.
+  <strong>Agentic Empire builds the systems that make AI-generated software shippable.</strong><br/>
+  Axint is the first public product, focused on Apple-native development.
 </p>
 
 ---
 
-### Flagship Line: Axint
+### Axint
 
-Axint turns TypeScript and Python into validated Swift for Apple-native features. It is the first public product line from Agentic Empire: an open-source compiler with registry and Cloud workflow surfaces around it for App Intents, SwiftUI views, WidgetKit widgets, and full app scaffolds. The compiler handles the conformances, `@Parameter` wrappers, and `LocalizedStringResource` literals that would otherwise turn every generated feature into a pile of Swift ceremony.
+Axint turns TypeScript and Python into validated Swift for Apple-native features. It is an open-source compiler and workflow system with Registry, Cloud, docs, and editor integrations around it for App Intents, SwiftUI views, WidgetKit widgets, and full app scaffolds.
 
 ```bash
 npm install -g @axint/compiler
@@ -26,15 +26,9 @@ axint compile my-intent.ts --out ios/Intents/
 |---|---|
 | **[Compiler](https://github.com/agenticempire/axint)** | TypeScript / Python → validated Swift for intents, views, widgets, apps |
 | **[Registry](https://registry.axint.ai)** | Browse and publish intent packages |
-| **[Cloud](https://axint.ai/cloud)** | Compiler-backed validation, compatibility, and the Cloud Check workflow |
+| **[Cloud](https://axint.ai/cloud)** | Product overview on axint.ai, with the live Cloud Check app at [cloud.axint.ai](https://cloud.axint.ai) |
 | **[Docs](https://docs.axint.ai)** | Getting started, MCP tools, diagnostics, CLI reference |
-| **[Company](https://agenticempire.co)** | Parent company narrative, trust posture, and flagship proof |
-
----
-
-### Company Shape
-
-Agentic Empire sits above the product line. The company is building the execution layer around agent-authored software: compilers, trust layers, hosted validation, and products that can survive real platform rules. Apple is the first proving ground because the constraints are hard enough to make the execution layer real.
+| **[Company](https://agenticempire.co)** | Company overview, contact, and links |
 
 ---
 
