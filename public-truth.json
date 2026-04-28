@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-04-27T02:25:07.921Z",
+  "generatedAt": "2026-04-28T10:33:25.434Z",
   "source": {
     "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
   },
   "axint": {
-    "version": "0.4.9",
-    "versionTag": "v0.4.9",
+    "version": "0.4.11",
+    "versionTag": "v0.4.11",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 984,
+      "typescript": 1017,
       "python": 114,
-      "total": 1098,
-      "summary": "1098 tests",
-      "passingSummary": "1098 tests passing",
-      "breakdownSummary": "984 TypeScript · 114 Python"
+      "total": 1131,
+      "summary": "1131 tests",
+      "passingSummary": "1131 tests passing",
+      "breakdownSummary": "1017 TypeScript · 114 Python"
     },
     "diagnostics": {
-      "count": 182,
-      "summary": "182 diagnostic codes",
-      "shortSummary": "182 diagnostics"
+      "count": 183,
+      "summary": "183 diagnostic codes",
+      "shortSummary": "183 diagnostics"
     },
     "mcp": {
-      "tools": 20,
+      "tools": 24,
       "prompts": 5,
-      "toolsSummary": "20 MCP tools",
+      "toolsSummary": "24 MCP tools",
       "promptsSummary": "5 built-in prompts",
-      "summary": "20 MCP tools + 5 prompts",
-      "compactSummary": "20 MCP tools, 5 prompts",
-      "builtInSummary": "20 tools plus 5 built-in prompts"
+      "summary": "24 MCP tools + 5 prompts",
+      "compactSummary": "24 MCP tools, 5 prompts",
+      "builtInSummary": "24 tools plus 5 built-in prompts"
     },
     "cli": {
       "topLevelCommands": [
@@ -52,11 +52,15 @@
         "doctor",
         "project",
         "session",
+        "run",
+        "runner",
         "mcp",
         "xcode"
       ],
       "xcodeSubcommands": [
+        "install",
         "setup",
+        "guard",
         "verify",
         "fix",
         "doctor",
@@ -64,7 +68,7 @@
         "packet",
         "extension"
       ],
-      "summary": "22 top-level · 7 xcode commands"
+      "summary": "24 top-level · 9 xcode commands"
     },
     "templates": {
       "count": 26,
@@ -125,10 +129,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.9 · 20 MCP tools + 5 prompts · 182 diagnostic codes · 1098 tests · 14 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.11 · 24 MCP tools + 5 prompts · 183 diagnostic codes · 1131 tests · 14 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.9 live",
-      "heroStatusSummary": "Axint v0.4.9 · open source · shipping"
+      "heroVersionSummary": "v0.4.11 live",
+      "heroStatusSummary": "Axint v0.4.11 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -136,14 +140,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.9",
+          "version": "0.4.11",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.9",
+          "version": "0.4.11",
           "install": "pip install axint"
         }
       },
@@ -270,9 +274,12 @@
       "toolNames": [
         "axint.status",
         "axint.doctor",
+        "axint.xcode.guard",
+        "axint.xcode.write",
         "axint.session.start",
         "axint.feature",
         "axint.project.pack",
+        "axint.project.index",
         "axint.context.memory",
         "axint.context.docs",
         "axint.suggest",
@@ -282,6 +289,7 @@
         "axint.validate",
         "axint.fix-packet",
         "axint.cloud.check",
+        "axint.run",
         "axint.tokens.ingest",
         "axint.schema.compile",
         "axint.swift.validate",
