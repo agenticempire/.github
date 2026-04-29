@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T18:14:25.228Z",
+  "generatedAt": "2026-04-29T21:07:05.319Z",
   "source": {
     "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
@@ -9,12 +9,12 @@
     "versionTag": "v0.4.15",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1090,
+      "typescript": 1099,
       "python": 114,
-      "total": 1204,
-      "summary": "1204 tests",
-      "passingSummary": "1204 tests passing",
-      "breakdownSummary": "1090 TypeScript · 114 Python"
+      "total": 1213,
+      "summary": "1213 tests",
+      "passingSummary": "1213 tests passing",
+      "breakdownSummary": "1099 TypeScript · 114 Python"
     },
     "diagnostics": {
       "count": 189,
@@ -136,7 +136,7 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.15 · 33 MCP tools + 5 prompts · 189 diagnostic codes · 1204 tests · 14 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.15 · 33 MCP tools + 5 prompts · 189 diagnostic codes · 1213 tests · 14 live packages · Apache-2.0",
     "company": {
       "heroVersionSummary": "v0.4.15 live",
       "heroStatusSummary": "Axint v0.4.15 · open source · shipping"
