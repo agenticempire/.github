@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-04-29T04:12:45.942Z",
+  "generatedAt": "2026-04-29T07:18:44.745Z",
   "source": {
     "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
   },
   "axint": {
-    "version": "0.4.12",
-    "versionTag": "v0.4.12",
+    "version": "0.4.13",
+    "versionTag": "v0.4.13",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1051,
+      "typescript": 1058,
       "python": 114,
-      "total": 1165,
-      "summary": "1165 tests",
-      "passingSummary": "1165 tests passing",
-      "breakdownSummary": "1051 TypeScript · 114 Python"
+      "total": 1172,
+      "summary": "1172 tests",
+      "passingSummary": "1172 tests passing",
+      "breakdownSummary": "1058 TypeScript · 114 Python"
     },
     "diagnostics": {
-      "count": 183,
-      "summary": "183 diagnostic codes",
-      "shortSummary": "183 diagnostics"
+      "count": 184,
+      "summary": "184 diagnostic codes",
+      "shortSummary": "184 diagnostics"
     },
     "mcp": {
       "tools": 29,
@@ -43,6 +43,7 @@
         "cloud",
         "tokens",
         "schema",
+        "suggest",
         "feature",
         "repair",
         "feedback",
@@ -72,7 +73,7 @@
         "packet",
         "extension"
       ],
-      "summary": "28 top-level · 9 xcode commands"
+      "summary": "29 top-level · 9 xcode commands"
     },
     "templates": {
       "count": 26,
@@ -133,10 +134,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.12 · 29 MCP tools + 5 prompts · 183 diagnostic codes · 1165 tests · 14 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.13 · 29 MCP tools + 5 prompts · 184 diagnostic codes · 1172 tests · 14 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.12 live",
-      "heroStatusSummary": "Axint v0.4.12 · open source · shipping"
+      "heroVersionSummary": "v0.4.13 live",
+      "heroStatusSummary": "Axint v0.4.13 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -144,14 +145,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.12",
+          "version": "0.4.13",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.12",
+          "version": "0.4.13",
           "install": "pip install axint"
         }
       },
