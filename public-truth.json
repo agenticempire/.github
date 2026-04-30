@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-29T21:07:05.319Z",
+  "generatedAt": "2026-04-30T07:23:15.815Z",
   "source": {
     "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
   },
   "axint": {
-    "version": "0.4.15",
-    "versionTag": "v0.4.15",
+    "version": "0.4.16",
+    "versionTag": "v0.4.16",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1099,
+      "typescript": 1103,
       "python": 114,
-      "total": 1213,
-      "summary": "1213 tests",
-      "passingSummary": "1213 tests passing",
-      "breakdownSummary": "1099 TypeScript · 114 Python"
+      "total": 1217,
+      "summary": "1217 tests",
+      "passingSummary": "1217 tests passing",
+      "breakdownSummary": "1103 TypeScript · 114 Python"
     },
     "diagnostics": {
       "count": 189,
@@ -136,10 +136,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.15 · 33 MCP tools + 5 prompts · 189 diagnostic codes · 1213 tests · 14 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.16 · 33 MCP tools + 5 prompts · 189 diagnostic codes · 1217 tests · 14 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.15 live",
-      "heroStatusSummary": "Axint v0.4.15 · open source · shipping"
+      "heroVersionSummary": "v0.4.16 live",
+      "heroStatusSummary": "Axint v0.4.16 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -147,14 +147,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.15",
+          "version": "0.4.16",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.15",
+          "version": "0.4.16",
           "install": "pip install axint"
         }
       },
