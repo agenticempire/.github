@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-03T04:17:28.244Z",
+  "generatedAt": "2026-05-03T08:45:38.262Z",
   "source": {
     "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
   },
   "axint": {
-    "version": "0.4.17",
-    "versionTag": "v0.4.17",
+    "version": "0.4.18",
+    "versionTag": "v0.4.18",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1126,
+      "typescript": 1143,
       "python": 114,
-      "total": 1240,
-      "summary": "1240 tests",
-      "passingSummary": "1240 tests passing",
-      "breakdownSummary": "1126 TypeScript · 114 Python"
+      "total": 1257,
+      "summary": "1257 tests",
+      "passingSummary": "1257 tests passing",
+      "breakdownSummary": "1143 TypeScript · 114 Python"
     },
     "diagnostics": {
-      "count": 195,
-      "summary": "195 diagnostic codes",
-      "shortSummary": "195 diagnostics"
+      "count": 198,
+      "summary": "198 diagnostic codes",
+      "shortSummary": "198 diagnostics"
     },
     "mcp": {
       "tools": 33,
@@ -136,10 +136,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.17 · 33 MCP tools + 5 prompts · 195 diagnostic codes · 1240 tests · 14 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.18 · 33 MCP tools + 5 prompts · 198 diagnostic codes · 1257 tests · 14 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.17 live",
-      "heroStatusSummary": "Axint v0.4.17 · open source · shipping"
+      "heroVersionSummary": "v0.4.18 live",
+      "heroStatusSummary": "Axint v0.4.18 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -147,14 +147,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.17",
+          "version": "0.4.18",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.17",
+          "version": "0.4.18",
           "install": "pip install axint"
         }
       },

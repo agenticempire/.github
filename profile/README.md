@@ -20,7 +20,7 @@ npm install -g @axint/compiler
 axint compile my-intent.ts --out ios/Intents/
 ```
 
-<!-- truth:github-proof-line:start -->v0.4.17 · 33 MCP tools + 5 prompts · 195 diagnostic codes · 1240 tests · 14 live packages · Apache-2.0<!-- truth:github-proof-line:end -->
+<!-- truth:github-proof-line:start -->v0.4.18 · 33 MCP tools + 5 prompts · 198 diagnostic codes · 1257 tests · 14 live packages · Apache-2.0<!-- truth:github-proof-line:end -->
 
 | | |
 |---|---|
