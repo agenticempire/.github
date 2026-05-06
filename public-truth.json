@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-05-03T08:45:38.262Z",
+  "generatedAt": "2026-05-06T07:33:03.995Z",
   "source": {
     "compilerMetrics": "/Users/nimanejat/agenticempire/axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "/Users/nimanejat/agenticempire/axint/package.json"
   },
   "axint": {
-    "version": "0.4.18",
-    "versionTag": "v0.4.18",
+    "version": "0.4.25",
+    "versionTag": "v0.4.25",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1143,
+      "typescript": 1192,
       "python": 114,
-      "total": 1257,
-      "summary": "1257 tests",
-      "passingSummary": "1257 tests passing",
-      "breakdownSummary": "1143 TypeScript · 114 Python"
+      "total": 1306,
+      "summary": "1306 tests",
+      "passingSummary": "1306 tests passing",
+      "breakdownSummary": "1192 TypeScript · 114 Python"
     },
     "diagnostics": {
-      "count": 198,
-      "summary": "198 diagnostic codes",
-      "shortSummary": "198 diagnostics"
+      "count": 204,
+      "summary": "204 diagnostic codes",
+      "shortSummary": "204 diagnostics"
     },
     "mcp": {
-      "tools": 33,
+      "tools": 35,
       "prompts": 5,
-      "toolsSummary": "33 MCP tools",
+      "toolsSummary": "35 MCP tools",
       "promptsSummary": "5 built-in prompts",
-      "summary": "33 MCP tools + 5 prompts",
-      "compactSummary": "33 MCP tools, 5 prompts",
-      "builtInSummary": "33 tools plus 5 built-in prompts"
+      "summary": "35 MCP tools + 5 prompts",
+      "compactSummary": "35 MCP tools, 5 prompts",
+      "builtInSummary": "35 tools plus 5 built-in prompts"
     },
     "cli": {
       "topLevelCommands": [
@@ -39,6 +39,7 @@
         "eject",
         "format",
         "templates",
+        "create",
         "login",
         "cloud",
         "tokens",
@@ -49,6 +50,7 @@
         "agent",
         "memory",
         "feedback",
+        "telemetry",
         "publish",
         "add",
         "search",
@@ -61,6 +63,7 @@
         "workflow",
         "run",
         "runner",
+        "paint-test",
         "mcp",
         "xcode"
       ],
@@ -75,7 +78,7 @@
         "packet",
         "extension"
       ],
-      "summary": "31 top-level · 9 xcode commands"
+      "summary": "34 top-level · 9 xcode commands"
     },
     "templates": {
       "count": 26,
@@ -123,8 +126,8 @@
       ]
     },
     "registryPackages": {
-      "count": 14,
-      "summary": "14 live packages",
+      "count": 58,
+      "summary": "58 live packages",
       "source": "registry.axint.ai/api/v1/health"
     },
     "distributionSurfaces": {
@@ -136,10 +139,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.18 · 33 MCP tools + 5 prompts · 198 diagnostic codes · 1257 tests · 14 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.25 · 35 MCP tools + 5 prompts · 204 diagnostic codes · 1306 tests · 58 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.18 live",
-      "heroStatusSummary": "Axint v0.4.18 · open source · shipping"
+      "heroVersionSummary": "v0.4.25 live",
+      "heroStatusSummary": "Axint v0.4.25 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -147,14 +150,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.18",
+          "version": "0.4.25",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.18",
+          "version": "0.4.25",
           "install": "pip install axint"
         }
       },
@@ -288,9 +291,11 @@
         "axint.feature",
         "axint.project.pack",
         "axint.project.index",
+        "axint.project.syncVersion",
         "axint.context.memory",
         "axint.context.docs",
         "axint.suggest",
+        "axint.registry.search",
         "axint.workflow.check",
         "axint.scaffold",
         "axint.compile",
