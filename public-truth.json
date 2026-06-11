@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-11T01:34:57.097Z",
+  "generatedAt": "2026-06-11T04:07:08.774Z",
   "source": {
     "compilerMetrics": "axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "axint/package.json"
   },
   "axint": {
-    "version": "0.4.30",
-    "versionTag": "v0.4.30",
+    "version": "0.4.31",
+    "versionTag": "v0.4.31",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1258,
+      "typescript": 1263,
       "python": 114,
-      "total": 1372,
-      "summary": "1372 tests",
-      "passingSummary": "1372 tests passing",
-      "breakdownSummary": "1258 TypeScript · 114 Python"
+      "total": 1377,
+      "summary": "1377 tests",
+      "passingSummary": "1377 tests passing",
+      "breakdownSummary": "1263 TypeScript · 114 Python"
     },
     "diagnostics": {
-      "count": 214,
-      "summary": "214 diagnostic codes",
-      "shortSummary": "214 diagnostics"
+      "count": 216,
+      "summary": "216 diagnostic codes",
+      "shortSummary": "216 diagnostics"
     },
     "mcp": {
       "tools": 36,
@@ -82,8 +82,8 @@
       "summary": "35 top-level · 9 xcode commands"
     },
     "templates": {
-      "count": 46,
-      "summary": "46 bundled templates"
+      "count": 49,
+      "summary": "49 bundled templates"
     },
     "xcodeFixRules": {
       "count": 33,
@@ -140,10 +140,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.30 · 36 MCP tools + 5 prompts · 214 diagnostic codes · 1372 tests · 58 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.4.31 · 36 MCP tools + 5 prompts · 216 diagnostic codes · 1377 tests · 58 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.30 live",
-      "heroStatusSummary": "Axint v0.4.30 · open source · shipping"
+      "heroVersionSummary": "v0.4.31 live",
+      "heroStatusSummary": "Axint v0.4.31 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -151,14 +151,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.30",
+          "version": "0.4.31",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.30",
+          "version": "0.4.31",
           "install": "pip install axint"
         }
       },
