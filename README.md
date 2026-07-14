@@ -1,12 +1,7 @@
-# agenticempire-dotgithub
+# Agentic Empire GitHub profile
 
-GitHub org-profile source for `agenticempire`.
+This repository owns the public organization profile in [`profile/README.md`](profile/README.md).
 
-## Volatile metric rule
-
-The proof line in `profile/README.md` is generated from `public-truth.json`.
-
-- The shared workspace sync updates the proof line via `<!-- truth:* -->` markers.
-- Rebuild it with `npm --prefix .. run truth:sync`.
-
-Do not hand-edit release, test, MCP, or package counts in the profile README.
+The profile intentionally avoids hard-coded release numbers and capability
+counts. Exact release data remains available in `public-truth.json` for tooling
+that needs a machine-readable snapshot.

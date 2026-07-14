@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-11T04:07:08.774Z",
+  "generatedAt": "2026-07-11T10:23:03.192Z",
   "source": {
     "compilerMetrics": "axint/scripts/metrics.mjs (executed test counts)",
     "compilerPackage": "axint/package.json"
   },
   "axint": {
-    "version": "0.4.31",
-    "versionTag": "v0.4.31",
+    "version": "0.5.2",
+    "versionTag": "v0.5.2",
     "license": "Apache-2.0",
     "tests": {
-      "typescript": 1263,
-      "python": 114,
-      "total": 1377,
-      "summary": "1377 tests",
-      "passingSummary": "1377 tests passing",
-      "breakdownSummary": "1263 TypeScript · 114 Python"
+      "typescript": 1368,
+      "python": 118,
+      "total": 1486,
+      "summary": "1486 tests",
+      "passingSummary": "1486 tests passing",
+      "breakdownSummary": "1368 TypeScript · 118 Python"
     },
     "diagnostics": {
-      "count": 216,
-      "summary": "216 diagnostic codes",
-      "shortSummary": "216 diagnostics"
+      "count": 225,
+      "summary": "225 diagnostic codes",
+      "shortSummary": "225 diagnostics"
     },
     "mcp": {
       "tools": 36,
@@ -34,28 +34,24 @@
       "topLevelCommands": [
         "init",
         "compile",
-        "activate",
         "validate",
         "validate-swift",
+        "templates",
+        "suggest",
+        "mcp",
+        "activate",
         "eject",
         "format",
-        "templates",
         "create",
-        "login",
-        "cloud",
         "tokens",
         "schema",
-        "suggest",
         "feature",
+        "watch",
+        "paint-test",
+        "appintents",
         "repair",
         "agent",
         "memory",
-        "feedback",
-        "telemetry",
-        "publish",
-        "add",
-        "search",
-        "watch",
         "status",
         "upgrade",
         "doctor",
@@ -64,9 +60,16 @@
         "workflow",
         "run",
         "runner",
-        "paint-test",
-        "mcp",
-        "xcode"
+        "xcode",
+        "login",
+        "cloud",
+        "feedback",
+        "telemetry",
+        "prove",
+        "receipt",
+        "publish",
+        "add",
+        "search"
       ],
       "xcodeSubcommands": [
         "install",
@@ -79,11 +82,11 @@
         "packet",
         "extension"
       ],
-      "summary": "35 top-level · 9 xcode commands"
+      "summary": "38 top-level · 9 xcode commands"
     },
     "templates": {
-      "count": 49,
-      "summary": "49 bundled templates"
+      "count": 53,
+      "summary": "53 bundled templates"
     },
     "xcodeFixRules": {
       "count": 33,
@@ -127,8 +130,8 @@
       ]
     },
     "registryPackages": {
-      "count": 58,
-      "summary": "58 live packages",
+      "count": 60,
+      "summary": "60 live packages",
       "source": "registry.axint.ai/api/v1/health"
     },
     "distributionSurfaces": {
@@ -140,10 +143,10 @@
       "summary": "4 Apple surfaces",
       "list": "Intent · View · Widget · App"
     },
-    "githubProfileProofLine": "v0.4.31 · 36 MCP tools + 5 prompts · 216 diagnostic codes · 1377 tests · 58 live packages · Apache-2.0",
+    "githubProfileProofLine": "v0.5.2 · 36 MCP tools + 5 prompts · 225 diagnostic codes · 1486 tests · 60 live packages · Apache-2.0",
     "company": {
-      "heroVersionSummary": "v0.4.31 live",
-      "heroStatusSummary": "Axint v0.4.31 · open source · shipping"
+      "heroVersionSummary": "v0.5.2 live",
+      "heroStatusSummary": "Axint v0.5.2 · open source · shipping"
     },
     "distribution": {
       "docsHub": "https://docs.axint.ai/mcp/",
@@ -151,14 +154,14 @@
       "packages": {
         "npm": {
           "name": "@axint/compiler",
-          "version": "0.4.31",
+          "version": "0.5.2",
           "installGlobal": "npm install -g @axint/compiler",
           "installDev": "npm install --save-dev @axint/compiler",
           "runOnce": "npx -y -p @axint/compiler axint"
         },
         "python": {
           "name": "axint",
-          "version": "0.4.31",
+          "version": "0.5.2",
           "install": "pip install axint"
         }
       },
@@ -225,15 +228,6 @@
           "installLabel": "Open Cursor deeplink",
           "installHref": "cursor://anysphere.cursor-deeplink/mcp/install?name=axint&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIi1wIiwiQGF4aW50L2NvbXBpbGVyIiwiYXhpbnQtbWNwIl19",
           "configPath": "~/Library/Application Support/Cursor/User/mcp.json"
-        },
-        {
-          "slug": "codex",
-          "name": "Codex",
-          "docsPath": "/mcp/codex/",
-          "installLabel": "Add via codex mcp add",
-          "installCommand": "codex mcp add axint -- npx -y -p @axint/compiler axint-mcp",
-          "remoteCommand": "codex mcp add axint --transport http https://mcp.axint.ai/mcp",
-          "configPath": "~/.codex/config.toml"
         },
         {
           "slug": "vscode",
