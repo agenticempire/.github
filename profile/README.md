@@ -2,44 +2,45 @@
   <img src="https://github.com/agenticempire.png" height="96" alt="Agentic Empire" />
 </p>
 
-<h1 align="center">Infrastructure for agent-authored software</h1>
+<h1 align="center">Agents can write Swift. Axint makes them prove it.</h1>
 
 <p align="center">
-  We build the systems between a plausible patch and software you can trust.<br />
-  Our first public product is <strong>Axint</strong>, the proof and repair layer for Apple coding agents.
+  <strong>Axint is the proof and repair layer for Apple coding agents.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/agenticempire/axint"><strong>Explore Axint</strong></a> ·
+  Axint checks the Swift your agent wrote, runs the real Xcode build and tests,<br />
+  reconciles findings with Apple tooling, and returns signed proof with the exact repairs to make next.<br />
+  <strong>No project rewrite. No source upload.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/agenticempire/axint"><strong>Prove a project</strong></a> ·
+  <a href="https://cloud.axint.ai">Try in browser</a> ·
   <a href="https://docs.axint.ai">Read the docs</a> ·
-  <a href="https://cloud.axint.ai">Try it in browser</a> ·
+  <a href="https://github.com/agenticempire/axint-examples">Explore examples</a> ·
   <a href="https://github.com/agenticempire/axint/discussions">Join the community</a>
 </p>
 
 ---
 
-## Axint
-
-Agents can write Swift. Shipping requires evidence.
-
-Axint generates Apple-native capabilities, checks existing Swift without
-rewriting the project, runs resumable Xcode proof, reconciles heuristics with
-compiler and test evidence, and returns a compact signed receipt for the next
-repair turn.
+## One local command
 
 ```bash
 npx -y -p @axint/compiler axint prove --dir /path/to/MyApp
 ```
 
-The first run is local, source-free, and non-destructive. No account is required.
+The default proof run is local, source-free, and non-destructive. It requires no
+account, does not change Swift, and keeps complete build and test artifacts on
+disk while returning a compact receipt for the next repair turn.
 
-| Surface | What it does |
+| Surface | Role in the proof loop |
 | --- | --- |
-| **Generate** | Compile smaller TypeScript, Python, JSON, or preview contracts into inspectable Swift |
 | **Check** | Classify findings as confirmed, probable, advisory, or suppressed |
-| **Run** | Orchestrate resumable Xcode builds, tests, runtime checks, and `.xcresult` evidence |
-| **Team** | Preserve project context, file claims, repair packets, and agent handoffs |
-| **Cloud** | Provide hosted checks and shared proof history when local Apple tooling is unavailable |
+| **Run** | Orchestrate resumable Xcode build, test, runtime, and `.xcresult` evidence |
+| **Generate** | Compile smaller contracts into inspectable Apple-native capabilities |
+| **Team** | Preserve context, file claims, repair packets, and agent handoffs |
+| **Cloud** | Provide hosted checks and shared proof history when local tooling is unavailable |
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@axint/compiler"><img src="https://img.shields.io/npm/v/@axint/compiler?color=f05138&label=npm" alt="npm package" /></a>
@@ -50,16 +51,16 @@ The first run is local, source-free, and non-destructive. No account is required
 
 ## What we optimize for
 
-- **Compiler truth over confident heuristics.** Evidence can confirm, downgrade, or suppress a finding.
-- **Local-first trust.** Source stays on the developer's machine unless they explicitly choose a hosted workflow.
-- **Small agent context.** Receipts carry verdicts, stable findings, and exact next actions without dumping full logs.
+- **Compiler truth over confident heuristics.** Apple evidence can confirm, contextualize, or suppress a finding.
+- **Local-first trust.** Source stays on the developer's machine unless a hosted workflow is explicitly chosen.
+- **Small agent context.** Receipts carry verdicts, stable findings, and exact next actions instead of full logs.
 - **Inspectable output.** Generated Swift and proof artifacts remain ordinary files that teams can review and own.
-- **Brownfield respect.** Existing projects deserve abstention, no surprise mutation, and a clean escape hatch.
+- **Respect for existing projects.** Checks abstain where evidence is incomplete, and mutations require explicit opt-in.
 
 ## Build with us
 
-The highest-value contributions improve brownfield precision, Xcode evidence,
-Apple API coverage, repair quality, and real-world examples.
+The highest-value contributions improve existing-project precision, Xcode
+evidence, Apple API coverage, repair quality, and reproducible proof examples.
 
 [Good first issues](https://github.com/agenticempire/axint/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) ·
 [Help wanted](https://github.com/agenticempire/axint/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) ·
