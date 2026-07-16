@@ -16,10 +16,17 @@
 
 <p align="center">
   <a href="https://github.com/agenticempire/axint"><strong>Prove a project</strong></a> ·
-  <a href="https://cloud.axint.ai">Try in browser</a> ·
+  <a href="https://axint.ai/cloud/preview">Try Cloud Preview</a> ·
+  <a href="https://mcp.axint.ai/health">Use the hosted MCP server</a> ·
   <a href="https://docs.axint.ai">Read the docs</a> ·
   <a href="https://github.com/agenticempire/axint-examples">Explore examples</a> ·
   <a href="https://github.com/agenticempire/axint/discussions">Join the community</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/agenticempire/axint">
+    <img src="https://raw.githubusercontent.com/agenticempire/axint/main/media/intro.gif" width="960" alt="Axint discovers an Apple project, checks Swift, runs Xcode proof, reconciles evidence, and returns a compact receipt" />
+  </a>
 </p>
 
 ---
@@ -34,6 +41,10 @@ The default proof run is local, source-free, and non-destructive. It requires no
 account, does not change Swift, and keeps complete build and test artifacts on
 disk while returning a compact receipt for the next repair turn.
 
+No Mac is required to inspect packages, run hosted checks, or start in Cloud
+Preview. Real Apple builds still execute on an authorized macOS runner so Xcode,
+simulators, signing, and `.xcresult` evidence remain genuine.
+
 | Surface | Role in the proof loop |
 | --- | --- |
 | **Check** | Classify findings as confirmed, probable, advisory, or suppressed |
@@ -41,6 +52,9 @@ disk while returning a compact receipt for the next repair turn.
 | **Generate** | Compile smaller contracts into inspectable Apple-native capabilities |
 | **Team** | Preserve context, file claims, repair packets, and agent handoffs |
 | **Cloud** | Provide hosted checks and shared proof history when local tooling is unavailable |
+
+The same contract is available over Streamable HTTP at
+`https://mcp.axint.ai/mcp` for clients that support remote MCP servers.
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@axint/compiler"><img src="https://img.shields.io/npm/v/@axint/compiler?color=f05138&label=npm" alt="npm package" /></a>
