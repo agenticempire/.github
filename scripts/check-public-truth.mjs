@@ -9,7 +9,8 @@ const failures = [];
 for (const required of [
   "https://github.com/agenticempire/axint",
   "https://docs.axint.ai",
-  "https://cloud.axint.ai",
+  "https://axint.ai/cloud/preview",
+  "https://mcp.axint.ai/mcp",
   "@axint/compiler",
   "axint prove",
 ]) {
